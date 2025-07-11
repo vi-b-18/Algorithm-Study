@@ -30,10 +30,10 @@ def askQuest(userQuestion):  # method should take user prompt to process it as t
 
 
 # set a while loop to True so it runs indefinitely
-while True:
-    print(" To Exit the chat, type bye.")  # display your initial prompt message as if you are the bot, indicate user how to exit (type bye)
-    query = input("ask me something: " + " ")  # let user input their question
-    if query.lower() == "bye":   # verify if you want to exit the program
-        break                   # if user has typed in bye, exit program
-    else:                       # else display the response as indicated below
-        print(askQuest(query).text)  # the .text return the text content of Bot response, and it is printed in your terminal
+# while True:
+#     print(" To Exit the chat, type bye.")  # display your initial prompt message as if you are the bot, indicate user how to exit (type bye)
+#     query = input("ask me something: " + " ")  # let user input their question
+#     if query.lower() == "bye":   # verify if you want to exit the program
+#         break                   # if user has typed in bye, exit program
+#     else:                       # else display the response as indicated below
+#         print(askQuest(query).text)  # the .text return the text content of Bot response, and it is printed in your terminal

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Example</title>
+</head>
+<body>
+  <form method="POST">
+    <label for="username">Enter your name:</label>
+    <input type="text" id="username" name="username" required>
+    <button type="submit">Submit</button>
+  </form>
+
+  {% if greeting %}
+    <h2>{{ greeting }}</h2>
+  {% endif %}
+</body>
+</html>
